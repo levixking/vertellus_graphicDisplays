@@ -1,0 +1,262 @@
+﻿body {
+    font-family: Arial;
+}
+.Rail {
+    position: absolute;
+    width: 4px;
+    height: 238px;
+    background-color: silver;
+}
+.HalfPanel {
+    position: absolute;
+    width: 45.5px;
+    height: 238px;
+}
+.KioskHalfPanel {
+    width: 45px;
+    height: 90px;
+    transform: skewY(30deg);
+}
+.KioskFullPanel {
+    width: 95px;
+    height: 90px;
+    transform: skewY(-30deg);
+}
+.FullPanel {
+    position: absolute;
+    width: 95px;
+    height: 238px;
+}
+.LeftWall {
+    transform: skewY(-30deg);
+    height: 238px;
+    width: 395.5px;
+    margin-top: 238px;
+}
+.ClosetPanels {
+    width: 194px;
+    margin-top: -298px;
+    margin-left: 399px;
+    height: 300px;  
+}
+.RightWall {
+    width: 251.5px;
+    height: 238px;
+    transform: skewY(30deg);
+    margin-left: 593px;
+    margin-top: -283px;
+    overflow: visible;
+}
+.ClosetBackLeft {
+    width: 95px;
+    height: 230px;
+    border-style: dashed;
+    border-right-style: none;
+    border-color: blue;
+    transform: skewY(-30deg);
+    position: absolute;
+    z-index: -10;
+    margin-top: -84px;
+    margin-left: 0px;
+    background-color: lightgrey;
+}
+.ClosetBackRight {
+    width: 95px;
+    height: 230px;
+    border-style: dashed;
+    border-color: blue;
+    transform: skewY(30deg);
+    position: absolute;
+    z-index: -20;
+    margin-top: -84px;
+    margin-left: 97px;
+    border-left-style: none;
+    background-color: grey;
+}
+.Kiosk {
+    margin-left: 346.5px;
+    margin-top: 200px;
+    position: absolute;
+    width: 200px;
+}
+.KioskTopLeft {
+    position: absolute;
+    height: 90px;
+    width: 96px;
+    border-top-style: solid;
+    border-color: silver;
+    transform: skewY(-30deg);
+    margin-top: -28px;
+}
+.KioskTopRight {
+    position: absolute;
+    height: 90px;
+    width: 50px;
+    border-top-style: solid;
+    border-color: silver;
+    transform: skewY(29deg);
+    margin-top: -42px;
+    margin-left: 96px;
+}
+.LeftFloor {
+    position: absolute;
+    height: 234px;
+    width: 344px;
+    border-style: solid;
+    border-color: black;
+    transform: skewY(30deg);
+    margin-top: 18px;
+    border-left-style: none;
+    border-right-style: dashed;
+    border-top-style: dashed;
+    border-top-color: blue;
+    border-right-color: blue;
+    pointer-events: none;
+}
+.RightFloor {
+    position: absolute;
+    height: 234px;
+    width: 497px;
+    border-style: solid;
+    border-color: black;
+    transform: skewY(-30deg);
+    margin-top: -26px;
+    margin-left: 347px;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: dashed;
+    border-top-color: blue;
+    pointer-events: none;
+}
+#Rail1 {
+    margin-left: 0px;
+}
+#Panel1 {
+    margin-left: 4px;
+}
+#Rail2 {
+    margin-left: 49.5px;
+}
+#Panel2 {
+    margin-left: 53.5px;
+}
+#Rail3 {
+    margin-left: 148.5px;
+}
+#Panel3 {
+    margin-left: 152.5px;
+}
+#Rail4 {
+    margin-left: 247.5px;
+}
+#Panel4 {
+    margin-left: 251.5px;
+}
+#Rail5 {
+    margin-left: 346.5px;
+}
+#Panel5 {
+    margin-left: 350.5px;
+}
+#Rail6 {
+    margin-left: 395.5px;
+}
+#Panel6 {
+    position: absolute;
+    margin-top: -55px;
+    transform: skewY(30deg);
+}
+#Rail7 {
+    margin-left: 95px;
+}
+#Panel7 {
+    position: absolute;
+    margin-left: 99px;
+    transform: skewY(-30deg);
+}
+#Rail8 {
+    margin-left: 0px;
+}
+#Panel8 {
+    margin-left: 4px;
+}
+#Rail9 {
+    margin-left: 49.5px;
+}
+#Panel9 {
+    margin-left: 53.5px;
+}
+#Rail10 {
+    margin-left: 148.5px;
+}
+#Panel10 {
+    margin-left: 152.5px;
+}
+#Rail11 {
+    margin-left: 247.5px;
+}
+#Rail12 {
+    margin-left: 0px;
+    height: 90px;
+}
+#Panel11 {
+    position: absolute;
+    margin-left: 4px;
+    margin-top: 14px;
+}
+#Rail13 {
+    margin-left: 47px;
+    margin-top: 27px;
+    height: 90px;
+}
+#Panel12 {
+    margin-left: 51px;
+    height: 90px;
+}
+#Rail14 {
+    margin-left: 146px;
+    margin-top: -118px;
+    height: 90px;
+    transform: skewY(-30deg);
+    width: 2px;
+}
+#PointA {
+    position: absolute;
+    margin-top: 258px;
+    margin-left: 140px;
+}
+#PointB {
+    position: absolute;
+    margin-left: 640px;
+    margin-top: 200px;
+}
+#SectionA, #SectionB {
+    position: absolute;
+    margin-top: 400px;
+}
+#SectionA img, #SectionB img {
+    position: static;
+}
+#TableA, #TableB {
+    border-collapse: collapse;
+}
+#TableA tr td, #TableB tr td{
+    border: solid;
+    border-color: silver;
+    padding: 0px;
+    margin: 0px;
+}
+#SectionB {
+    margin-left: 500px;
+}
+#SectionA .KioskHalfPanel, #SectionB .KioskFullPanel {
+    transform: skewY(0);
+    position: absolute;
+    right: 8px;
+    bottom: 4px;
+    border-style: solid;
+    border-color: black;
+}
+#SectionB .KioskFullPanel {
+    left: 49px;
+}
